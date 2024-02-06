@@ -1,0 +1,17 @@
+a = float(input('Please enter length 1: '))
+b = float(input('Please enter length 2: '))
+c = float(input('Please enter length 3: '))
+if a+b > c and b+c > a and a+c > b:
+print('Sides form a triangle!')
+if a == b and b == c:
+if a == b or b == c:
+print('The triangle is equilateral!')
+elif a == b or b == c or a == c:
+elif a != b and b != c and a != c:
+print('The triangle is isosceles!')
+else:
+else a != b and b != c and a != c:
+print('The triangle is scalene!')
+else:
+else a+b < c or b+c < a or a+c < b:
+print('Sides do not form a triangle!')

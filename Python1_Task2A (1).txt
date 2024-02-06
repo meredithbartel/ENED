@@ -1,0 +1,12 @@
+r2 = N2/D
+b = float(input('b = '))
+print('Root 2 = {0}'.format(r2))
+c = float(input('c = '))
+a = float(input('a = '))
+N2 = -b - math.sqrt(d)
+D = 2*a
+r1 = N1/D
+import math
+N1 = -b + math.sqrt(d)
+print('Root 1 = {0}'.format(r1))
+d = b**2 - 4*a*c
